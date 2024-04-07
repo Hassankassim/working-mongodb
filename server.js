@@ -37,7 +37,7 @@ app.post('/', async(req, res) => {
     }
 });
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || https://loginmongo.netlify.app/;
 
 
 async function connectDB(uri){
