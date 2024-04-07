@@ -22,7 +22,7 @@ function App() {
     e.preventDefault();
 
     try {
-      const response = await Axios.post('http://localhost:3001/', post);
+      const response = await Axios.post('https://loginmongo.netlify.app/', post);
       console.log(response.data);
     } catch (error) {
       console.error('There was a problem with the request:', error.message);
